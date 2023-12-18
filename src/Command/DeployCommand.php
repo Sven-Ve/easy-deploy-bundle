@@ -38,7 +38,7 @@ class DeployCommand extends Command
         parent::__construct();
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setName('deploy')
@@ -50,7 +50,7 @@ class DeployCommand extends Command
         ;
     }
 
-    protected function initialize(InputInterface $input, OutputInterface $output)
+    protected function initialize(InputInterface $input, OutputInterface $output): ?bool
     {
         $customConfigPath = $input->getOption('configuration');
         if (null !== $customConfigPath && !is_readable($customConfigPath)) {
