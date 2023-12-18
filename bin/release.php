@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-$version = "v1.2.3";
+$version = "v1.2.4";
 $message = "ready for symfony 6.4 and 7 - fixed type defnitions";
 
 /* echo("Running phpstan:\n");

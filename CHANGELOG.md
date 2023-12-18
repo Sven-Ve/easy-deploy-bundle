@@ -18,3 +18,8 @@
 ## Version v1.2.3
 *Mon, 18 Dec 2023 20:17:28 +0000*
 - ready for symfony 6.4 and 7 - fixed type defnitions
+
+
+## Version v1.2.4
+*Mon, 18 Dec 2023 20:19:05 +0000*
+- ready for symfony 6.4 and 7 - fixed type defnitions
